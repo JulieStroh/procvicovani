@@ -1,8 +1,47 @@
-.big{
-    color: blue;
+p{
+background-color: blue;
+    margin: 0px;
+    padding: 0px;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.asteroid{
-border: 1px;
-
+div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+align-items: center;
+border: 2px;
+border-style: solid;
+border-color: blue;
+width: 300px;
+height: 60px;
 }
+
+span{
+    background-color: purple;
+        margin: 0px;
+        padding: 0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    a{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    border-color:purple;
+    width: 300px;
+    height: 60px;
+    background-color: orange;
+    margin-top: 10px;
+    }
